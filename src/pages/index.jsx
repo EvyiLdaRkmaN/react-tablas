@@ -7,7 +7,6 @@ import Row from '../components/table/Row';
 const Home = () => {
 
   const [numero, setNumero] = useState(1);
-  let rows = [];
 
   const handleChangeNumber = () =>{
     if (numero < 10) setNumero(numero+1);
