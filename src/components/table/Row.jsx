@@ -2,7 +2,7 @@ import React from 'react'
 
 const Row = (props) => {
   return (
-    <tr style={{backgroundColor: 'blue', color: 'white'}} >
+    <tr >
       <td>{props.position}</td>
       <td>x</td>
       <td>{props.number}</td>
