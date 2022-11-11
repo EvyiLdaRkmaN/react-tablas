@@ -31,6 +31,7 @@ const Home = () => {
           <Row position={10} number={numero}/>
         </tbody>
       </Table>
+      <p>Si quieres ver otro cambio usa el comando: git checkout test</p>
     </center>
   )
 }
